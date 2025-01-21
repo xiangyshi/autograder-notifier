@@ -1,0 +1,6 @@
+# Webcrawl Dependency
+selenium
+
+# Notification Dependency
+plyer
+simpleaudio
