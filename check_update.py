@@ -56,9 +56,7 @@ def login_and_check_updates_selenium():
     return ticket_count
     
 
-    
-count = login_and_check_updates_selenium()
-errcnt = 0
+count = 0
 while count < 1:
     if errcnt > 10:
         make_notification()
