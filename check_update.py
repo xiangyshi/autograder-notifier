@@ -57,6 +57,7 @@ def login_and_check_updates_selenium():
     
 
 count = 0
+errcnt = 0
 while count < 1:
     if errcnt > 10:
         make_notification()
